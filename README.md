@@ -17,7 +17,7 @@ A simple registration form built with HTML, CSS, and TypeScript. This project va
 - HTML5
 - CSS3
 - TypeScript
-- 
+
 ### Prerequisites
 
 - Node.js and npm (for TypeScript compilation)
