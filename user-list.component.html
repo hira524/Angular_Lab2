@@ -1,0 +1,5 @@
+<ul>
+  <li *ngFor="let user of users">
+    <app-user-detail [user]="user" (remove)="removeUser(user)"></app-user-detail>
+  </li>
+</ul>

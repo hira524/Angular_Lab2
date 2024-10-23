@@ -1,0 +1,10 @@
+<h1>User List</h1>
+<form (ngSubmit)="addUser(userName.value); userName.value=''">
+  <input #userName type="text" placeholder="Enter user name" required />
+  <button type="submit">Add User</button>
+</form>
+
+<app-user-list [users]="users" (userRemoved)="removeUser($event)"></app-user-list>
+
+<!-- Display success message -->
+<p *ngIf="message">{{ message }}</p>
